@@ -1,5 +1,5 @@
 [project]
-name = "convert-parquet-csv"
+name = "convert-parquet-to-csv"
 version = "0.1.0"
 description = "Parquet → CSV: Four Python Libraries Compared"
 readme = "README.md"
