@@ -1,12 +1,11 @@
 [project]
 name = "convert-parquet-csv"
 version = "0.1.0"
-description = "Add your description here"
+description = "Parquet → CSV: Four Python Libraries Compared"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "duckdb>=1.4.2",
-    "matplotlib>=3.10.7",
     "pandas>=2.3.3",
     "polars>=1.35.2",
     "pyarrow>=22.0.0",
