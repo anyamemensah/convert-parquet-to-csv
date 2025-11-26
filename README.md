@@ -1,11 +1,11 @@
 # Parquet → CSV: Four Python Libraries Compared
 
+A former colleague asked me about the best way to convert Parquet files to CSV using Python. Rather than just theorize, I decided to run an 'experiment'. This repository contains the scripts for that 'experiment', which benchmarks DuckDB, Polars, PyArrow, and Pandas to see which library performs Parquet-to-CSV conversions fastest across varying data sizes. After analyzing and visualizing the results, Polars and DuckDB came out on top across all row sizes.
+
 <img style="margin-top:0px;margin-left:0px;width:70vw" src="https://www.dropbox.com/scl/fi/0jzwama77j7cmns0ylqip/parquet_to_csv_results.png?rlkey=4iqv8ipumneao3g550km2h5cs&raw=1" alt="Conversion times (in seconds) from Parquet to CSV across all row sizes for four Python libraries: Polars, Pandas, PyArrow, and DuckDB.">
 
-tl;dr Polars and DuckDB seem to offer the fastest Parquet-to-CSV conversions across all row sizes.
 
-Steps to run the experiment:
-
+## Steps to run the 'experiment'
 1. Clone the [GitHub repository](https://github.com/anyamemensah/convert-parquet-to-csv).
 2. Navigate to the project directory.
 3. Install all dependencies using:
